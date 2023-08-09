@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+  <Id>austinvaness/BlueprintAPI</Id>
+  <FriendlyName>Blueprint API</FriendlyName>
+  <Author>avaness</Author>
+  <Tooltip>Tooltip</Tooltip>
+  <Description>Description</Description>
+  <Commit>0</Commit>
+  <SourceDirectories>
+    <Directory>PluginBlueprintAPI</Directory>
+  </SourceDirectories>
+</PluginData>

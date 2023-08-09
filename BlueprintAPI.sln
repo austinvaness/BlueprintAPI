@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlueprintAPI", "BlueprintAPI\BlueprintAPI.csproj", "{22A7654B-7041-46AD-8236-D81E47B2689A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginBlueprintAPI", "PluginBlueprintAPI\PluginBlueprintAPI.csproj", "{B8014859-7091-44FB-B8B7-DB72C6C8EAB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22A7654B-7041-46AD-8236-D81E47B2689A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A7654B-7041-46AD-8236-D81E47B2689A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22A7654B-7041-46AD-8236-D81E47B2689A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22A7654B-7041-46AD-8236-D81E47B2689A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8014859-7091-44FB-B8B7-DB72C6C8EAB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8014859-7091-44FB-B8B7-DB72C6C8EAB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8014859-7091-44FB-B8B7-DB72C6C8EAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8014859-7091-44FB-B8B7-DB72C6C8EAB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C6E98C4-7CA0-43EF-B31D-3EC828E3AC0B}
+	EndGlobalSection
+EndGlobal

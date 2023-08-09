@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_ProjectorDefinition">
+      <Id>
+        <TypeId>MyObjectBuilder_Projector</TypeId>
+        <SubtypeId>BlueprintAPI_Projector</SubtypeId>
+      </Id>
+      <DisplayName>Blueprint API Projector</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Projector.dds</Icon>
+      <Description>Description_Projector</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\Projector.mwm</Model>
+      <Components>
+        <Component Subtype="BlueprintAPI_Component" Count="10">
+          <DeconstructId>
+            <TypeId>Ore</TypeId>
+            <SubtypeId>Scrap</SubtypeId>
+          </DeconstructId>
+        </Component>
+      </Components>
+      <CriticalComponent Subtype="BlueprintAPI_Component" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="0" EndY="0" Enabled="false" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\ProjectorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ProjectorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ProjectorConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>BlueprintAPI_Projector</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>9999999</BuildTimeSeconds>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <Public>false</Public>
+      <PCU>1</PCU>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <IsAirTight>false</IsAirTight>
+      <AllowScaling>false</AllowScaling>
+      <AllowWelding>false</AllowWelding>
+      <IgnoreSize>true</IgnoreSize>
+    </Definition>
+  </CubeBlocks>
+</Definitions>
