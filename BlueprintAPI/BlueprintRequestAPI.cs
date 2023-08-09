@@ -34,6 +34,7 @@ namespace avaness.BlueprintAPI
         {
             MyAPIGateway.Utilities.UnregisterMessageHandler(MessageId, RecieveData);
             getBlueprint = null;
+            getBlueprintServer = null;
             onEnabled = null;
         }
 
