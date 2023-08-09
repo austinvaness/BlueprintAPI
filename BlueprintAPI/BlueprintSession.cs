@@ -60,21 +60,6 @@ namespace avaness.BlueprintAPI
             Instance = null;
         }
 
-        public override void HandleInput()
-        {
-            // For testing
-            /*if(MyAPIGateway.Input?.IsNewKeyPressed(VRage.Input.MyKeys.L) == true)
-            {
-                api?.GetBlueprint((l) => 
-                {
-                    MyObjectBuilder_ShipBlueprintDefinition ship = new MyObjectBuilder_ShipBlueprintDefinition();
-                    if (l != null)
-                        ship.CubeGrids = l.ToArray();
-                    MyClipboardHelper.SetClipboard(MyAPIGateway.Utilities.SerializeToXML(ship));
-                }, true);
-            }*/
-        }
-
         public void GetBlueprint(Action<List<MyObjectBuilder_CubeGrid>> resultCallback, bool connectSubgrids)
         {
             MyObjectBuilder_CubeGrid grid = new MyObjectBuilder_CubeGrid

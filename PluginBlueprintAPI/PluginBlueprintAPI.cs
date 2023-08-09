@@ -54,9 +54,6 @@ namespace avaness.BlueprintAPI.Plugin
 
         public static bool GetBlueprintPrefix(Action<List<MyObjectBuilder_CubeGrid>> resultCallback)
         {
-            if (MyAPIGateway.Input.IsAnyShiftKeyPressed())
-                return true;
-
             if(MyGuiScreenGamePlay.ActiveGameplayScreen is MyGuiBlueprintScreen_Reworked)
             {
                 resultCallback(null);
