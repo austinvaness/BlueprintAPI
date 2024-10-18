@@ -51,9 +51,9 @@ namespace avaness.BlueprintAPI.Plugin
         }
 
         public Dictionary<long, long> GetRemapInfo()
-		{
-			return m_oldToNewMap;
-		}
+	{
+		return m_oldToNewMap;
+	}
     }
 
 }
