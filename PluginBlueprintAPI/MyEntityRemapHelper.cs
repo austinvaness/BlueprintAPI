@@ -49,6 +49,11 @@ namespace avaness.BlueprintAPI.Plugin
             m_oldToNewMap.Clear();
             m_groupMap.Clear();
         }
+
+        public Dictionary<long, long> GetRemapInfo()
+	{
+		return m_oldToNewMap;
+	}
     }
 
 }
